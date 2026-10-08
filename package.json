@@ -1,0 +1,20 @@
+{
+  "name": "codesentinel",
+  "version": "1.0.0",
+  "description": "Autonomous Code Review Agent powered by Claude AI",
+  "main": "src/codesentinel.js",
+  "bin": {
+    "codesentinel": "./src/codesentinel.js"
+  },
+  "scripts": {
+    "start": "node src/codesentinel.js serve",
+    "analyze": "node src/codesentinel.js analyze",
+    "test": "node test.js"
+  },
+  "keywords": ["code-review", "ai", "claude", "security", "static-analysis"],
+  "license": "MIT",
+  "dependencies": {},
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
